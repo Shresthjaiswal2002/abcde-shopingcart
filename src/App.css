@@ -36,3 +36,341 @@
     transform: rotate(360deg);
   }
 }
+/* styles.css */
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* UserLogin component styles */
+.login-form {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #0056b3;
+}
+
+/* ListItems component styles */
+.item-list {
+  list-style: none;
+  padding: 0;
+}
+
+.item-list li {
+  margin-bottom: 10px;
+}
+
+.item-list li button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.item-list li button:hover {
+  background-color: #0056b3;
+}
+
+/* Cart component styles */
+.cart-items {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-items li {
+  margin-bottom: 10px;
+}
+
+/* OrderHistory component styles */
+.order-list {
+  list-style: none;
+  padding: 0;
+}
+
+.order-list li {
+  margin-bottom: 10px;
+}
+/* App.css */
+
+/* Reset default list styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style the navigation bar */
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+/* ListItems.css */
+
+/* Background Styles */
+.background-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+/* Container Styles */
+.items-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading Styles */
+.items-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333333;
+}
+
+/* Item Styles */
+.item-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.item-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.item-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.item-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.item-description {
+  font-size: 16px;
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.item-price {
+  font-size: 18px;
+  color: #007bff;
+}
+
+/* No Items Message Styles */
+.no-items-message {
+  text-align: center;
+  font-size: 18px;
+  color: #666666;
+  margin-top: 40px;
+}
+/* OrderHistory.css */
+
+/* Container Styles */
+.order-history-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading Styles */
+.order-history-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333333;
+}
+
+/* Order Item Styles */
+.order-item {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.order-item:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.order-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-id {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.order-date {
+  font-size: 16px;
+  color: #666666;
+}
+
+/* No Orders Message Styles */
+.no-orders-message {
+  text-align: center;
+  font-size: 18px;
+  color: #666666;
+  margin-top: 40px;
+}
+/* Cart.css */
+
+/* Container Styles */
+.cart-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading Styles */
+.cart-heading {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #333333;
+}
+
+/* Cart Item Styles */
+.cart-item {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.cart-item:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease-in-out;
+}
+
+.item-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.item-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-name {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.item-price {
+  font-size: 16px;
+  color: #007bff;
+}
+
+/* Total Price Styles */
+.total-price {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 20px;
+  color: #007bff;
+}
+
+/* Empty Cart Message Styles */
+.empty-cart-message {
+  text-align: center;
+  font-size: 18px;
+  color: #666666;
+  margin-top: 40px;
+}
